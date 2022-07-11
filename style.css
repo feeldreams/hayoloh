@@ -1,6 +1,6 @@
 @keyframes fanim {0% {background-position: 0% 0%;}25% {background-position: 100% 100%;} 50% {background-position: 0% 100%;} 75% {background-position: 50% 50%;} 100% {background-position: 0% 0%;}}
 body{background-color:#000;font-family:var(--gaya-font);padding: 20px 25px;-webkit-user-select: none; -ms-user-select: none; user-select: none;} a{text-decoration:none;}
-body::before{content:"\00A9  Rayys | PalingIT";color:white;opacity:.2;font-size:11px;position:fixed;bottom:25px;right:25px;z-index:2}
+body::before{content:"\00A9  Rayys | PalingIT";color:white;opacity:.1;font-size:10px;position:fixed;bottom:25px;right:25px;z-index:2}
 #bodyblur{opacity:.3;/*animation: jj 7s infinite;*/position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.3);z-index:-1;transition:all 1s ease;} 
 #wallpaper{width:100%;height:100%;transition:all 2s ease;}
 #beneranblur{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.3);-webkit-backdrop-filter:blur(3px); backdrop-filter:blur(3px);transition:all 3s ease;}
@@ -33,7 +33,7 @@ p{font-size:18px;font-weight:400;line-height:1.4em;/*text-shadow: 0px 2px 2px rg
 #Content > *{display:flex;align-items:center;text-align:center;justify-content:center;margin-top:1px;}
 
 #fotolove img{transition:all .5s ease;width:75px;height:75px;padding:0;background:none}
-#suratin img{display:inline-flex;box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;background:rgba(255,255,255, 1);border-radius:10%;padding:10px;width:140px;height:110px;transition:all .3s ease;} 
+#suratin img{display:inline-flex;box-shadow: rgba(255,255,255, 0.5) 0px 7px 29px 0px;background:rgba(255,255,255, 1);border-radius:10%;padding:10px;width:140px;height:110px;transition:all .3s ease;} 
 #ket{text-shadow: 0px 2px 2px rgba(0, 0, 0, .8);color:white}
 #suratin img:hover{transform:scale(.9);}
 
