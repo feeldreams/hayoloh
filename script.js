@@ -34,7 +34,7 @@ function otomatis() {befanimkata();setTimeout(animkata,400);}
   	if(fungsi==1){
   	if(flagg==2){Bn2.style="width:auto;opacity:1;transition:all .3s ease;margin:190px 0 12px 12px;";flagg=3}
   	    else if(flagg==3){Bn2.style="width:auto;opacity:1;transition:all .3s ease;margin:160px 160px 12px 12px;";flagg=4}
-  		else if(flagg==4){Bn2.style="transition:all .3s ease;margin:12px 0 12px 12px;";kalimatc.style.opacity="0";Bn.style="margin:12px 0 12px 12px";flagg=1}
+  		else if(flagg==4){Bn2.style="transition:all .3s ease;margin:12px 0 12px 12px;";Bn.style="margin:12px 0 12px 12px";flagg=1}
   	    }
    }
 
