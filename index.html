@@ -1,5 +1,6 @@
 <html><meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/><link href="https://feeldreams.github.io/hayoloh/style.css" rel="stylesheet" type="text/css" /><script src="https://feeldreams.github.io/hayoloh/script.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet"><script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script><script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script>
+<link href="https://Blog.feeldream.repl.co/style.css" rel="stylesheet" type="text/css" />
 <head>
 <title>Script HTML</title>
 <!-- 
@@ -75,15 +76,20 @@
      
    </div>
 
+<div class='sticky-ad' id='sticky-ad'>
+ <div class='adB'><a rel="dofollow" href='https://youtu.be/GUu1e68Nqjw'>Lihat Cara Buatnya di Sini!</a></div>
+<button aria-label='Close this ad' class='sticky-ad-close-button' onclick='hilangkan();'/>
+</div>
 <!-- Jangan Edit Bagian Ini --><script>
   ftom=0;jikapr=1;ftganti=0;flag=1;flagg=1;fungsi=0;Bn2.innerHTML=Bn.innerHTML;function showDiv() {pesanwhatsapp = "Aku mau kok jadi pacarmu ><";Bn2.style.display="none";Content.style = "opacity:1;margin-top:15vh;";ket.style="margin-top:30px";}
   function memulai(){suratin.style="transition:all 1s ease;transform:scale(.1);opacity:0";ket.style="transition:all 1s ease;transform:scale(.1);opacity:0";setTimeout(mulaikonten,300)}
   function mulaikonten() {otomatis();suratin.style="display:none";ket.style="display:none";Content.style = "opacity:1;margin-top:4vh";bodyblur.style="opacity:.6;animation:none";wallpaper.style="transform: scale(2);opacity:1;";fotoakhir.style="display:inline-flex;";setTimeout(ftmuncul,200);bq.style = "position:relative;opacity:1;visibility:visible;transform: scale(1);border-radius:var(--bingkai);margin-top:0";fungsi=1;setTimeout(tombol,500);}
-  
+  function tunjukkan(){document.getElementById("sticky-ad").style = "bottom: 0px";}
+function hilangkan() {document.getElementById("sticky-ad").style = "bottom: -130px";}
   function ftmuncul(){
     if(ftganti==0){fotoakhir.style="display:inline-flex;opacity:1;transform:scale(1)";}
     if(ftganti==1){fotoakhir.src = fotoakhir2.src;fotoakhir.style="display:inline-flex;opacity:1;transition:all .7s ease;transform:scale(1);";}
-    if(ftganti==2){fotoakhir.src = fotoakhir3.src;fotoakhir.style="display:inline-flex;opacity:1;transition:all .7s ease;transform:scale(1);";}
+    if(ftganti==2){setTimeout(tunjukkan,1000);fotoakhir.src = fotoakhir3.src;fotoakhir.style="display:inline-flex;opacity:1;transition:all .7s ease;transform:scale(1);";}
   }
   function fthilang(){fotoakhir.style="display:inline-flex;opacity:1;transition:all .7s ease;transform:scale(.1)";}
   function jjfoto(){fotoakhir.style.animation="rto .8s infinite alternate";}
