@@ -13,7 +13,7 @@ body::before{content:"\00A9  Rayys | PalingIT";color:white;opacity:.1;font-size:
 @keyframes kont{0%  {left:-1px; top:-3px;} 50% {left:1px; top:3px;} 100% {left:-1px; top:-3px;}}
 
 blockquote{opacity:0;visibility:hidden;transform: scale(.1);transition:all 1s ease;position:absolute;margin-top:120px;margin-left:0;margin-right:0;}
-blockquote{width:400px;background:var(--warna-bg);border-right:var(--bingkai-kanan);border-left:var(--bingkai-kiri);box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;border-radius:20%;color:var(--warna-teks);text-shadow: 0px 2px 2px rgba(0, 0, 0, .8);text-align:center;line-height:1.3em;padding:0 25px 0 25px;}
+blockquote{width:400px;background:var(--warna-bg);border-right:var(--bingkai-kanan);border-left:var(--bingkai-kiri);box-shadow: rgba(255,255,255, 0.15) 0px 7px 29px 0px;border-radius:20%;color:var(--warna-teks);text-shadow: 0px 2px 2px rgba(0, 0, 0, .8);text-align:center;line-height:1.3em;padding:0 25px 0 25px;}
 blockquote img{display:none;box-shadow: rgba(255,255,255, 0.2) 0px 7px 29px 0px;background:rgba(255,255,255,.8);border-radius:8%;/*border:2px double var(--warna-bingkai);*/padding:10px;width:100px;height:100px;margin:20px 0 0 0;}
 #fotoakhir{opacity:.1;margin-bottom:15px;transition:all 1.2s ease;transform: scale(.1);}
 
@@ -24,7 +24,7 @@ p{font-size:18px;font-weight:400;line-height:1.4em;/*text-shadow: 0px 2px 2px rg
 #kalimatd{font-size:22px;font-weight:700;}
 
 #Tombol{position:relative;opacity:0;margin:0;display:flex;align-items:left;list-style:none;transform: scale(.1);transition:all 1s ease;}
-#Tombol a{cursor:pointer;display:inline-flex;align-items:center; margin:0;margin:12px 0 12px 0;transition:all .2s ease;padding:10px;outline:0;border:1px solid var(--warna-bingkai);border-radius:8px;line-height:15px;background:var(--warna-bg);color:var(--warna-teks);font-size:15px;font-weight:700;white-space:nowrap;overflow:hidden;box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;z-index:1} 
+#Tombol a{cursor:pointer;display:inline-flex;align-items:center; margin:0;margin:12px 0 12px 0;transition:all .2s ease;padding:10px;outline:0;border:1px solid var(--warna-bingkai);border-radius:8px;line-height:15px;background:var(--warna-bg);color:var(--warna-teks);font-size:15px;font-weight:700;white-space:nowrap;overflow:hidden;box-shadow: rgba(255,255,255, 0.15) 0px 7px 29px 0px;z-index:1} 
 #Tombol a:hover{transform: scale(.90);}
 #buttonv2{position:absolute;font-size:15px;color:white;background:var(--warna-bg);padding:10px;border-radius:8px;line-height:10px;text-shadow: 0px 2px 2px rgba(0, 0, 0, .8);opacity:0}
 #Bn2{position:absolute;opacity:0;width:0}
